@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/UrNightmaree/catppuccin-asciinema/stargazers"><img src="https://img.shields.io/github/stars/UrNightmaree/catppuccin-asciinema?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/UrNightmaree/catppuccin-asciinema/issues"><img src="https://img.shields.io/github/issues/UrNightmaree/catppuccin-asciinema?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/UrNightmaree/catppuccin-asciinema/contributors"><img src="https://img.shields.io/github/contributors/UrNightmaree/catppuccin-asciinema?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/asciinema/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/asciinema?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/asciinema/issues"><img src="https://img.shields.io/github/issues/catppuccin/asciinema?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/asciinema/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/asciinema?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -36,14 +36,14 @@
 
 ## Usage
 
-1. Choose what flavor you want to choose by copying the content of JSON file in [`themes`](/themes), ex: you want Mocha flavor, then you copy the content of `src/mocha.json`.
-2. Paste into `theme` field in the header of the [asciicast v2](https://github.com/asciinema/asciinema/blob/develop/doc/asciicast-v2.md) that you've recorded.
+1. Copy the contents of your preferred flavor from [`themes/`](/themes/).
+2. Paste into the `theme` field in the header of the [asciicast v2](https://docs.asciinema.org/manual/asciicast/v2/) that you've recorded.
 3. Play the asciicast v2 file using `asciinema play` or convert it into GIF using [agg](https://github.com/asciinema/agg) to see how it looks. 
 
 ## 🙋 FAQ
 
 -	Q: **_"The theme doesn't work inside asciinema.org player nor embedded web player?"_**\
-	A: See asciinema/asciinema#305
+	A: See [asciinema/asciinema#305](https://github.com/asciinema/asciinema/issues/305).
 
 ## 💝 Thanks to
 
