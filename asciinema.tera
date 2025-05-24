@@ -4,11 +4,12 @@ whiskers:
   matrix:
     - flavor
     - accent
-  filename: "themes/{{flavor.identifier}}.json"
+  filename: "themes/{{ flavor.identifier }}.json"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 
 {
-  fg: "#{{ text.hex }}",
-  bg: "#{{ base.hex }}",
-  pallete: "#{% if flavor.identifier == "latte" %}{{ subtext1.hex }}{% else %}{{ surface1.hex }}{% endif %}:#{{ red.hex }}:#{{ green.hex }}:#{{ yellow.hex }}:#{{ blue.hex }}:#{{ pink.hex }}:#{{ teal.hex }}:#{% if flavor.identifier == "latte" %}{{ surface2.hex }}{% else %}{{ subtext1.hex }}{% endif %}:#{% if flavor.identifier == "latte" %}{{ subtext0.hex }}{% else %}{{ surface2.hex }}{% endif %}:#{{ red.hex }}:#{{ green.hex }}:#{{ yellow.hex }}:#{{ blue.hex }}:#{{ pink.hex }}:#{{ teal.hex }}:#{% if flavor.identifier == "latte" %}{{ surface1.hex }}{% else %}{{ subtext0.hex }}{% endif %}"
+  "fg": "{{ text.hex }}",
+  "bg": "{{ base.hex }}",
+  "pallete": "{% if flavor.light %}{{ subtext1.hex }}{% else %}{{ surface1.hex }}{% endif %}:{{ red.hex }}:{{ green.hex }}:{{ yellow.hex }}:{{ blue.hex }}:{{ pink.hex }}:{{ teal.hex }}:{% if flavor.light %}{{ surface2.hex }}{% else %}{{ subtext1.hex }}{% endif %}:{% if flavor.light %}{{ subtext0.hex }}{% else %}{{ surface2.hex }}{% endif %}:{{ red.hex }}:{{ green.hex }}:{{ yellow.hex }}:{{ blue.hex }}:{{ pink.hex }}:{{ teal.hex }}:{% if flavor.light %}{{ surface1.hex }}{% else %}{{ subtext0.hex }}{% endif %}"
 }
