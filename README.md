@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Choose what flavor you want to choose by copying the content of JSON file in [`src`](/src), ex: you want Mocha flavor, then you copy the content of `src/mocha.json`.
+1. Choose what flavor you want to choose by copying the content of JSON file in [`themes`](/themes), ex: you want Mocha flavor, then you copy the content of `src/mocha.json`.
 2. Paste into `theme` field in the header of the [asciicast v2](https://github.com/asciinema/asciinema/blob/develop/doc/asciicast-v2.md) that you've recorded.
 3. Play the asciicast v2 file using `asciinema play` or convert it into GIF using [agg](https://github.com/asciinema/agg) to see how it looks. 
 
