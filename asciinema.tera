@@ -11,5 +11,5 @@ whiskers:
 {
   "fg": "{{ text.hex }}",
   "bg": "{{ base.hex }}",
-  "pallete": "{% if flavor.light %}{{ subtext1.hex }}{% else %}{{ surface1.hex }}{% endif %}:{{ red.hex }}:{{ green.hex }}:{{ yellow.hex }}:{{ blue.hex }}:{{ pink.hex }}:{{ teal.hex }}:{% if flavor.light %}{{ surface2.hex }}{% else %}{{ subtext1.hex }}{% endif %}:{% if flavor.light %}{{ subtext0.hex }}{% else %}{{ surface2.hex }}{% endif %}:{{ red.hex }}:{{ green.hex }}:{{ yellow.hex }}:{{ blue.hex }}:{{ pink.hex }}:{{ teal.hex }}:{% if flavor.light %}{{ surface1.hex }}{% else %}{{ subtext0.hex }}{% endif %}"
+  "palette": "{% if flavor.light %}{{ subtext1.hex }}{% else %}{{ surface1.hex }}{% endif %}:{{ red.hex }}:{{ green.hex }}:{{ yellow.hex }}:{{ blue.hex }}:{{ pink.hex }}:{{ teal.hex }}:{% if flavor.light %}{{ surface2.hex }}{% else %}{{ subtext1.hex }}{% endif %}:{% if flavor.light %}{{ subtext0.hex }}{% else %}{{ surface2.hex }}{% endif %}:{{ red.hex }}:{{ green.hex }}:{{ yellow.hex }}:{{ blue.hex }}:{{ pink.hex }}:{{ teal.hex }}:{% if flavor.light %}{{ surface1.hex }}{% else %}{{ subtext0.hex }}{% endif %}"
 }
